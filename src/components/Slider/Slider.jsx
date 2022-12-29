@@ -6,9 +6,10 @@ function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
-    "https://images.unsplash.com/photo-1664574652984-5b5f769bef07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "https://images.unsplash.com/photo-1671898463267-a4ffac5b743c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1047&q=80",
-    "https://plus.unsplash.com/premium_photo-1666174328188-9d445cd7ee2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    'https://media.istockphoto.com/id/1356569932/photo/style-and-confidence.jpg?b=1&s=170667a&w=0&k=20&c=MvMzYpB6-WWMn2e95A2H6ICu0XERnL61PwvnQYrbr3o=',
+    "https://media.istockphoto.com/id/496603268/photo/set-of-business-mens-clothing.jpg?s=170667a&w=0&k=20&c=LH1pa1xVNrHw7enRhkoSW9RfOnhpRtXcIdaUymxApS4=",
+    "https://media.istockphoto.com/id/1342849839/photo/beautiful-afro-woman-with-pigtails-and-stylish-clothes.jpg?b=1&s=170667a&w=0&k=20&c=RV0HexrtzJmjLsHSWMpPBvyiBdJvTapc5ReUvqtSYwQ=",
+    
   ];
 
   const prevSlide = () => {
